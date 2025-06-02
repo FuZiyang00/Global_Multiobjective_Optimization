@@ -71,7 +71,7 @@ The rate is computed as follows:
     - if all the class labels are the same $\rightarrow$ no inconsistency
     - if there are different class labels $\rightarrow$ some inconsitency 
     - cont the number of inconsistent records as 
-    $$ \text{Group size} - \text{number of records with the majority class}$$
+    $$\text{Group size} - \text{number of records with the majority class}$$
 3. add up all these inconsistencies across all the groups; 
 4. divide this sum by the total number of records to get the **inconsistency rate** 
 
