@@ -126,5 +126,13 @@ $$
 $$
 This objective promotes feature subsets that yield high classification performance while penalizing overly complex models
 
-> [!warning] Caution
-Install the dependencies in requirements.txt before running the notebook
+# Benchmarks
+
+|                  | Precision    | Recall     | Accuracy   | AUC   | 
+|----------        |----------    |----------  |----------  |-------|
+| Baseline model   | 0.8156       |   0.8400   |  0.7284    |0.6560 |
+| FIlter GA model  | 0.7986       |   0.8664   |  0.7266    |0.6135 |
+| Wrapper GA model | 0.8176       |   0.8311   |  0.7249    |0.6533 |
+
+> [!WARNING]  
+> Install the dependencies listed in requirements.txt before running the experiment
