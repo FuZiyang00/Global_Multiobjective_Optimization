@@ -121,9 +121,7 @@ This objective balances data consistency with model simplicity by discouraging o
 
 - **Wrapper method**: the algorithm tries to **maximize** the following fitnes function: 
 
-$$
-\text{Precision} - \text{Penalty} \times (\frac{\text{Number of 1s}}{Total number of features})
-$$
+$$\text{Precision} - \text{Penalty} \times (\frac{\text{Number of 1s}}{Total number of features})$$
 This objective promotes feature subsets that yield high classification performance while penalizing overly complex models
 
 # Benchmarks
